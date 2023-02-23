@@ -2,6 +2,12 @@ export type Dialogues = 'PAYMENT_QR' | 'FACULTIES' | 'NONE';
 
 export type ScoreError = 'NONE' | 'INCOMPLETE' | 'MINIMUM' | 'MINIMUM_SUM';
 
+export interface NetsatAPI {
+	syllabusCount: number
+	facultyCount: number
+	dataDate: string
+	netsat: NetsatType[]
+}
 export interface ScoreReport {
 	error: ScoreError;
 	score: number;
