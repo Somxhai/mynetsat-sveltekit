@@ -1,11 +1,12 @@
 <script lang="ts">
 	import SearchCard from '$lib/component/card/SearchCard.svelte';
 	import MediumContainer from '$lib/component/container/MediumContainer.svelte';
+	import { netsat } from '$lib/stores';
 	export let search: string;
-	import netsat from '$lib/netsat.json';
+
 	import type { NetsatType } from '$lib/types';
 
-	$: searchResult = netsat
+	$: searchResult = $netsat
 		.filter((data) => {
 			const SEARCH_IS_RELATIVE = (data.faculty + ' ' + data.syllabus).includes(search.trim());
 			if (SEARCH_IS_RELATIVE) {
