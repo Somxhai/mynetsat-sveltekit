@@ -1,0 +1,2666 @@
+[
+    {
+        "syllabus": "คณิตศาสตร์",
+        "faculty": "คณะวิทยาศาสตร์",
+        "syllabus_id": 0,
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 35,
+            "science": 10,
+            "physics": 10,
+            "chemistry": 10,
+            "biology": 10
+        }
+    },
+    {
+        "syllabus": "เคมี",
+        "syllabus_id": 1,
+        "faculty": "คณะวิทยาศาสตร์",
+        "weight": {
+            "thai": 10,
+            "english": 10,
+            "math": 15,
+            "science": 20,
+            "physics": 10,
+            "chemistry": 25,
+            "biology": 10
+        }
+    },
+    {
+        "syllabus": "จุลชีววิทยา",
+        "faculty": "คณะวิทยาศาสตร์",
+        "syllabus_id": 2,
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 15,
+            "science": 15,
+            "physics": 10,
+            "chemistry": 15,
+            "biology": 20
+        }
+    },
+    {
+        "syllabus": "ชีวเคมี",
+        "faculty": "คณะวิทยาศาสตร์",
+        "syllabus_id": 3,
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 10,
+            "science": 15,
+            "physics": 10,
+            "chemistry": 20,
+            "biology": 20
+        }
+    },
+    {
+        "syllabus": "ชีววิทยา",
+        "faculty": "คณะวิทยาศาสตร์",
+        "syllabus_id": 4,
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 15,
+            "science": 15,
+            "physics": 10,
+            "chemistry": 15,
+            "biology": 20
+        }
+    },
+    {
+        "syllabus": "ฟิสิกส์",
+        "faculty": "คณะวิทยาศาสตร์",
+        "syllabus_id": 5,
+        "weight": {
+            "thai": 10,
+            "english": 10,
+            "math": 15,
+            "science": 20,
+            "physics": 20,
+            "chemistry": 15,
+            "biology": 10
+        }
+    },
+    {
+        "syllabus": "วัสดุศาสตร์และนาโนเทคโนโลยี",
+        "faculty": "คณะวิทยาศาสตร์",
+        "syllabus_id": 6,
+        "weight": {
+            "thai": 10,
+            "english": 10,
+            "math": 15,
+            "science": 20,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 15
+        }
+    },
+    {
+        "syllabus": "วิทยาศาสตร์สิ่งแวดล้อม",
+        "faculty": "คณะวิทยาศาสตร์",
+        "syllabus_id": 7,
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 10,
+            "science": 15,
+            "physics": 10,
+            "chemistry": 20,
+            "biology": 20
+        }
+    },
+    {
+        "syllabus": "สถิติและวิทยาการข้อมูล สาขาเอกสถิติศาสตร์",
+        "faculty": "คณะวิทยาศาสตร์",
+        "syllabus_id": 8,
+        "weight": {
+            "thai": 10,
+            "english": 10,
+            "math": 40,
+            "science": 40
+        }
+    },
+    {
+        "syllabus": "สถิติและวิทยาการข้อมูล สาขาวิชาเอกสารสนเทศสถิติและวิทยาการข้อมูล",
+        "faculty": "คณะวิทยาศาสตร์",
+        "syllabus_id": 9,
+        "weight": {
+            "thai": 10,
+            "english": 10,
+            "math": 40,
+            "science": 40
+        }
+    },
+    {
+        "syllabus": "การประมง",
+        "faculty": "คณะเกษตรศาสตร์",
+        "syllabus_id": 10,
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 15,
+            "science": 15,
+            "physics": 10,
+            "chemistry": 15,
+            "biology": 20
+        }
+    },
+    {
+        "syllabus": "เกษตรนวัตกรรม",
+        "faculty": "คณะเกษตรศาสตร์",
+        "syllabus_id": 11,
+        "weight": {
+            "thai": 15,
+            "english": 15,
+            "math": 15,
+            "science": 20,
+            "physics": 10,
+            "chemistry": 10,
+            "biology": 15
+        }
+    },
+    {
+        "syllabus": "เกษตรศาสตร์ วิชาเอกการส่งเสริมและพัฒนาการเกษตร",
+        "faculty": "คณะเกษตรศาสตร์",
+        "syllabus_id": 12,
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 15,
+            "science": 15,
+            "physics": 10,
+            "chemistry": 15,
+            "biology": 20
+        }
+    },
+    {
+        "syllabus": "เกษตรศาสตร์ วิชาเอกกีฏวิทยา",
+        "faculty": "คณะเกษตรศาสตร์",
+        "syllabus_id": 13,
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 15,
+            "science": 15,
+            "physics": 10,
+            "chemistry": 15,
+            "biology": 20
+        }
+    },
+    {
+        "syllabus": "เกษตรศาสตร์ วิชาเอกปฐพีศาสตร์และสิ่งแวดล้อม",
+        "faculty": "คณะเกษตรศาสตร์",
+        "syllabus_id": 14,
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 15,
+            "science": 15,
+            "physics": 10,
+            "chemistry": 15,
+            "biology": 20
+        }
+    },
+    {
+        "syllabus": "เกษตรศาสตร์ วิชาเอกพืชไร่",
+        "faculty": "คณะเกษตรศาสตร์",
+        "syllabus_id": 15,
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 15,
+            "science": 15,
+            "physics": 10,
+            "chemistry": 15,
+            "biology": 20
+        }
+    },
+    {
+        "syllabus": "เกษตรศาสตร์ วิชาเอกพืชสวน",
+        "faculty": "คณะเกษตรศาสตร์",
+        "syllabus_id": 16,
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 15,
+            "science": 15,
+            "physics": 10,
+            "chemistry": 15,
+            "biology": 20
+        }
+    },
+    {
+        "syllabus": "เกษตรศาสตร์ วิชาเอกโรคพืชวิทยา",
+        "faculty": "คณะเกษตรศาสตร์",
+        "syllabus_id": 17,
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 15,
+            "science": 15,
+            "physics": 10,
+            "chemistry": 15,
+            "biology": 20
+        }
+    },
+    {
+        "syllabus": "เกษตรศาสตร์ วิชาเอกสัตวศาสตร์",
+        "faculty": "คณะเกษตรศาสตร์",
+        "syllabus_id": 18,
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 15,
+            "science": 15,
+            "physics": 10,
+            "chemistry": 15,
+            "biology": 20
+        }
+    },
+    {
+        "syllabus": "เศรษฐศาสตร์เกษตร",
+        "faculty": "คณะเกษตรศาสตร์",
+        "syllabus_id": 19,
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 25,
+            "science": 15,
+            "physics": 10,
+            "chemistry": 10,
+            "biology": 15
+        }
+    },
+    {
+        "syllabus": "วิศวกรรมเกษตร",
+        "faculty": "คณะวิศวกรรมศาสตร์",
+        "syllabus_id": 20,
+        "weight": {
+            "english": 20,
+            "math": 30,
+            "physics": 30
+        },
+        "specific_capability": {
+            "engineer": 20
+        }
+    },
+    {
+        "syllabus": "วิศวกรรมคอมพิวเตอร์",
+        "faculty": "คณะวิศวกรรมศาสตร์",
+        "syllabus_id": 21,
+        "weight": {
+            "english": 20,
+            "math": 30,
+            "physics": 20
+        },
+        "specific_capability": {
+            "engineer": 30
+        }
+    },
+    {
+        "syllabus": "วิศวกรรมเคมี",
+        "faculty": "คณะวิศวกรรมศาสตร์",
+        "syllabus_id": 22,
+        "weight": {
+            "thai": 5,
+            "english": 10,
+            "math": 25,
+            "physics": 25,
+            "chemistry": 15
+        },
+        "specific_capability": {
+            "engineer": 20
+        }
+    },
+    {
+        "syllabus": "วิศวกรรมเคมี หลักสูตรนานาชาติ",
+        "faculty": "คณะวิศวกรรมศาสตร์",
+        "syllabus_id": 23,
+        "weight": {
+            "english": 16,
+            "math": 16,
+            "science": 16,
+            "physics": 16,
+            "chemistry": 16
+        },
+        "minimum_score": {
+            "english": 25,
+            "math": 20
+        },
+        "specific_capability": {
+            "engineer": 20
+        }
+    },
+    {
+        "syllabus": "วิศวกรรมเครื่องกล",
+        "faculty": "คณะวิศวกรรมศาสตร์",
+        "syllabus_id": 24,
+        "weight": {
+            "english": 10,
+            "math": 25,
+            "physics": 25,
+            "chemistry": 10
+        },
+        "specific_capability": {
+            "engineer": 30
+        }
+    },
+    {
+        "syllabus": "วิศวกรรมโทรคมนาคม หลักสูตรนานาชาติ",
+        "faculty": "คณะวิศวกรรมศาสตร์",
+        "syllabus_id": 25,
+        "weight": {
+            "english": 30,
+            "math": 30,
+            "physics": 30
+        },
+        "minimum_score": {
+            "math": 30
+        },
+        "specific_capability": {
+            "engineer": 10
+        }
+    },
+    {
+        "syllabus": "วิศวกรรมไฟฟ้า",
+        "faculty": "คณะวิศวกรรมศาสตร์",
+        "syllabus_id": 26,
+        "weight": {
+            "english": 20,
+            "math": 30,
+            "physics": 30
+        },
+        "minimum_score": {
+            "math": 30
+        },
+        "specific_capability": {
+            "engineer": 20
+        }
+    },
+    {
+        "syllabus": "วิศวกรรมโยธา",
+        "faculty": "คณะวิศวกรรมศาสตร์",
+        "syllabus_id": 27,
+        "weight": {
+            "english": 10,
+            "math": 35,
+            "physics": 35
+        },
+        "specific_capability": {
+            "engineer": 20
+        }
+    },
+    {
+        "syllabus": "วิศวกรรมระบบอัตโนมัติ หุ่นยนต์ และปัญญาประดิษฐ์",
+        "faculty": "คณะวิศวกรรมศาสตร์",
+        "syllabus_id": 28,
+        "weight": {
+            "thai": 10,
+            "english": 10,
+            "math": 20,
+            "science": 20,
+            "physics": 20
+        },
+        "specific_capability": {
+            "engineer": 20
+        }
+    },
+    {
+        "syllabus": "วิศวกรรมระบบอิเล็กทรอนิกส์",
+        "faculty": "คณะวิศวกรรมศาสตร์",
+        "syllabus_id": 29,
+        "weight": {
+            "thai": 10,
+            "english": 10,
+            "math": 30,
+            "physics": 30
+        },
+        "specific_capability": {
+            "engineer": 20
+        }
+    },
+    {
+        "syllabus": "วิศวกรรมโลจิสติกส์ หลักสูตรนานาชาติ",
+        "faculty": "คณะวิศวกรรมศาสตร์",
+        "syllabus_id": 30,
+        "weight": {
+            "english": 30,
+            "math": 30,
+            "physics": 20
+        },
+        "minimum_score": {
+            "english": 20,
+            "math": 20
+        },
+        "specific_capability": {
+            "engineer": 20
+        }
+    },
+    {
+        "syllabus": "วิศวกรรมสิ่งแวดล้อม",
+        "faculty": "คณะวิศวกรรมศาสตร์",
+        "syllabus_id": 31,
+        "weight": {
+            "english": 15,
+            "math": 25,
+            "physics": 25,
+            "chemistry": 15
+        },
+        "minimum_score": {
+            "math": 20
+        },
+        "specific_capability": {
+            "engineer": 20
+        }
+    },
+    {
+        "syllabus": "วิศวกรรมสื่อดิจิทัล หลักสูตรนานาชาติ",
+        "faculty": "คณะวิศวกรรมศาสตร์",
+        "syllabus_id": 32,
+        "weight": {
+            "english": 30,
+            "math": 30,
+            "physics": 30
+        },
+        "specific_capability": {
+            "engineer": 10
+        }
+    },
+    {
+        "syllabus": "วิศวกรรมอุตสาหการ",
+        "faculty": "คณะวิศวกรรมศาสตร์",
+        "syllabus_id": 33,
+        "weight": {
+            "english": 25,
+            "math": 25,
+            "physics": 25
+        },
+        "specific_capability": {
+            "engineer": 25
+        }
+    },
+    {
+        "syllabus": "วิชาเอกดนตรีศึกษา",
+        "faculty": "คณะศึกษาศาสตร์",
+        "syllabus_id": 34,
+        "weight": {
+            "thai": 20,
+            "english": 20,
+            "math": 10
+        },
+        "specific_capability": {
+            "fine_arts": {
+                "music": 50
+            }
+        }
+    },
+    {
+        "syllabus": "การสอนภาษาอังกฤษให้ผู้มีพื้นฐานภาษาอื่นนอกจากภาษาอังกฤษ (โครงการพิเศษ นานาชาติ)",
+        "faculty": "คณะศึกษาศาสตร์",
+        "syllabus_id": 35,
+        "weight": {
+            "thai": 10,
+            "english": 90
+        }
+    },
+    {
+        "syllabus": "วิชาเอกการสอนภาษาญี่ปุ่น",
+        "faculty": "คณะศึกษาศาสตร์",
+        "syllabus_id": 36,
+        "weight": {
+            "thai": 20,
+            "english": 20,
+            "math": 20
+        },
+        "specific_capability": {
+            "foreign": {
+                "japanese": 40
+            }
+        }
+    },
+    {
+        "syllabus": "วิชาเอกการสอนภาษาไทย",
+        "faculty": "คณะศึกษาศาสตร์",
+        "syllabus_id": 37,
+        "minimum_score": {
+            "thai": 30,
+            "english": 25,
+            "math": 20
+        },
+        "weight": {
+            "thai": 65,
+            "english": 30,
+            "math": 5
+        }
+    },
+    {
+        "syllabus": "วิชาเอกคณิตศาสตรศึกษา",
+        "faculty": "คณะศึกษาศาสตร์",
+        "syllabus_id": 38,
+        "weight": {
+            "thai": 20,
+            "english": 20,
+            "math": 40,
+            "science": 20
+        }
+    },
+    {
+        "syllabus": "วิชาเอกคอมพิวเตอร์ศึกษา",
+        "faculty": "คณะศึกษาศาสตร์",
+        "syllabus_id": 39,
+        "weight": {
+            "thai": 20,
+            "english": 25,
+            "math": 25,
+            "science": 30
+        }
+    },
+    {
+        "syllabus": "วิชาเอกพลศึกษา",
+        "faculty": "คณะศึกษาศาสตร์",
+        "syllabus_id": 40,
+        "weight": {
+            "thai": 15,
+            "english": 30,
+            "math": 15,
+            "science": 20
+        },
+        "specific_capability": {
+            "education": {
+                "body": 20
+            }
+        }
+    },
+    {
+        "syllabus": "วิชาเอกวิทยาศาสตร์ศึกษา",
+        "faculty": "คณะศึกษาศาสตร์",
+        "syllabus_id": 41,
+        "minimum_score": {
+            "science": 25,
+            "physics": 25,
+            "chemistry": 25,
+            "biology": 25
+        },
+        "weight": {
+            "thai": 15,
+            "english": 30,
+            "math": 15,
+            "science": 19,
+            "physics": 7,
+            "chemistry": 7,
+            "biology": 7
+        }
+    },
+    {
+        "syllabus": "วิชาเอกศิลปศึกษา",
+        "faculty": "คณะศึกษาศาสตร์",
+        "syllabus_id": 42,
+        "weight": {
+            "thai": 30,
+            "english": 20,
+            "math": 10
+        },
+        "specific_capability": {
+            "education": {
+                "goodatart": 40
+            }
+        }
+    },
+    {
+        "syllabus": "วิชาเอกสังคมศึกษา",
+        "faculty": "คณะศึกษาศาสตร์",
+        "syllabus_id": 43,
+        "weight": {
+            "thai": 20,
+            "english": 35,
+            "math": 15,
+            "science": 30
+        }
+    },
+    {
+        "syllabus": "วิชาเอกเดี่ยวการประถมศึกษา",
+        "faculty": "คณะศึกษาศาสตร์",
+        "syllabus_id": 168,
+        "weight": {
+            "thai": 25,
+            "english": 25,
+            "math": 25,
+            "science": 25
+        }
+    },
+    {
+        "syllabus": "พยาบาลศาสตร์บัณฑิต",
+        "faculty": "คณะพยาบาลศาสตร์",
+        "syllabus_id": 44,
+        "weight": {
+            "thai": 10,
+            "english": 20,
+            "math": 20,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 20
+        }
+    },
+    {
+        "syllabus": "แพทยศาสตรบัณฑิต",
+        "faculty": "คณะแพทยศาสตร์",
+        "minimum_sum": 50,
+        "syllabus_id": 45,
+        "minimum_score": {
+            "thai": 30,
+            "english": 30,
+            "math": 30,
+            "physics": 30,
+            "chemistry": 30,
+            "biology": 30
+        },
+        "weight": {
+            "thai": 10,
+            "english": 30,
+            "math": 15,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 15
+        }
+    },
+    {
+        "syllabus": "แพทยศาสตรบัณฑิต CPIRD-Inclusive โรงพยาบาลขอนแก่นจังหวัดขอนแก่น (MD03-0301)",
+        "faculty": "คณะแพทยศาสตร์",
+        "syllabus_id": 46,
+        "minimum_score": {
+            "thai": 30,
+            "english": 30,
+            "math": 30,
+            "physics": 30,
+            "chemistry": 30,
+            "biology": 30
+        },
+        "minimum_sum": 50,
+        "weight": {
+            "thai": 10,
+            "english": 30,
+            "math": 15,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 15
+        }
+    },
+    {
+        "syllabus": "แพทยศาสตรบัณฑิต CPIRD-Inclusive โรงพยาบาลขอนแก่นจังหวัดนครพนม (MD03-0302)",
+        "faculty": "คณะแพทยศาสตร์",
+        "syllabus_id": 47,
+        "minimum_sum": 50,
+        "weight": {
+            "thai": 10,
+            "english": 30,
+            "math": 15,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 15
+        },
+        "minimum_score": {
+            "thai": 30,
+            "english": 30,
+            "math": 30,
+            "physics": 30,
+            "chemistry": 30,
+            "biology": 30
+        }
+    },
+    {
+        "syllabus": "รังสีเทคนิค (ภาคปกติ)",
+        "faculty": "คณะแพทยศาสตร์",
+        "syllabus_id": 48,
+        "minimum_score": {
+            "thai": 20,
+            "english": 20,
+            "chemistry": 20,
+            "physics": 30,
+            "math": 30,
+            "biology": 30
+        },
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 15,
+            "physics": 22.5,
+            "chemistry": 15,
+            "biology": 22.5
+        }
+    },
+    {
+        "syllabus": "เวชนิทัศน์ (ภาคปกติ)",
+        "faculty": "คณะแพทยศาสตร์",
+        "syllabus_id": 49,
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "science": 25
+        },
+        "specific_capability": {
+            "medical_vision": {
+                "techmed": 25,
+                "artmed": 25
+            }
+        }
+    },
+    {
+        "syllabus": "แพทยศาสตรบัณฑิต CPIRD-Inclusive โรงพยาบาลขอนแก่นจังหวัดมุกดาหาร (MD03-0303)",
+        "faculty": "คณะแพทยศาสตร์",
+        "syllabus_id": 169,
+        "minimum_sum": 50,
+        "weight": {
+            "thai": 10,
+            "english": 30,
+            "math": 15,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 15
+        },
+        "minimum_score": {
+            "thai": 30,
+            "english": 30,
+            "math": 30,
+            "physics": 30,
+            "chemistry": 30,
+            "biology": 30
+        }
+    },
+    {
+        "syllabus": "แพทยศาสตรบัณฑิต CPIRD-Inclusive โรงพยาบาลขอนแก่นจังหวัดเลย (MD03-0304)",
+        "faculty": "คณะแพทยศาสตร์",
+        "syllabus_id": 170,
+        "minimum_sum": 50,
+        "weight": {
+            "thai": 10,
+            "english": 30,
+            "math": 15,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 15
+        },
+        "minimum_score": {
+            "thai": 30,
+            "english": 30,
+            "math": 30,
+            "physics": 30,
+            "chemistry": 30,
+            "biology": 30
+        }
+    },
+    {
+        "syllabus": "แพทยศาสตรบัณฑิต CPIRD-Inclusive โรงพยาบาลขอนแก่นจังหวัดสกลนคร (MD03-0305)",
+        "faculty": "คณะแพทยศาสตร์",
+        "syllabus_id": 171,
+        "minimum_sum": 50,
+        "weight": {
+            "thai": 10,
+            "english": 30,
+            "math": 15,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 15
+        },
+        "minimum_score": {
+            "thai": 30,
+            "english": 30,
+            "math": 30,
+            "physics": 30,
+            "chemistry": 30,
+            "biology": 30
+        }
+    },
+    {
+        "syllabus": "แพทยศาสตรบัณฑิต CPIRD-Inclusive โรงพยาบาลอุดรธานีจังหวัดอุดรธานี (MD05-0501)",
+        "faculty": "คณะแพทยศาสตร์",
+        "syllabus_id": 172,
+        "minimum_sum": 50,
+        "weight": {
+            "thai": 10,
+            "english": 30,
+            "math": 15,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 15
+        },
+        "minimum_score": {
+            "thai": 30,
+            "english": 30,
+            "math": 30,
+            "physics": 30,
+            "chemistry": 30,
+            "biology": 30
+        }
+    },
+    {
+        "syllabus": "แพทยศาสตรบัณฑิต CPIRD-Inclusive โรงพยาบาลอุดรธานีจังหวัดหนองคาย (MD05-0502)",
+        "faculty": "คณะแพทยศาสตร์",
+        "syllabus_id": 173,
+        "minimum_sum": 50,
+        "weight": {
+            "thai": 10,
+            "english": 30,
+            "math": 15,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 15
+        },
+        "minimum_score": {
+            "thai": 30,
+            "english": 30,
+            "math": 30,
+            "physics": 30,
+            "chemistry": 30,
+            "biology": 30
+        }
+    },
+    {
+        "syllabus": "แพทยศาสตรบัณฑิต CPIRD-Inclusive โรงพยาบาลอุดรธานีจังหวัดหนองบัวลำภู (MD05-0503)",
+        "faculty": "คณะแพทยศาสตร์",
+        "syllabus_id": 174,
+        "minimum_sum": 50,
+        "weight": {
+            "thai": 10,
+            "english": 30,
+            "math": 15,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 15
+        },
+        "minimum_score": {
+            "thai": 30,
+            "english": 30,
+            "math": 30,
+            "physics": 30,
+            "chemistry": 30,
+            "biology": 30
+        }
+    },
+    {
+        "syllabus": "แพทยศาสตรบัณฑิต CPIRD-Inclusive โรงพยาบาลมหาสารคามจังหวัดกาฬสินธุ์ (MD11-1101)",
+        "faculty": "คณะแพทยศาสตร์",
+        "syllabus_id": 175,
+        "minimum_sum": 50,
+        "weight": {
+            "thai": 10,
+            "english": 30,
+            "math": 15,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 15
+        },
+        "minimum_score": {
+            "thai": 30,
+            "english": 30,
+            "math": 30,
+            "physics": 30,
+            "chemistry": 30,
+            "biology": 30
+        }
+    },
+    {
+        "syllabus": "แพทยศาสตรบัณฑิต CPIRD-Inclusive โรงพยาบาลมหาสารคามจังหวัดบึงกาฬ (MD11-1102)",
+        "faculty": "คณะแพทยศาสตร์",
+        "syllabus_id": 176,
+        "minimum_sum": 50,
+        "weight": {
+            "thai": 10,
+            "english": 30,
+            "math": 15,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 15
+        },
+        "minimum_score": {
+            "thai": 30,
+            "english": 30,
+            "math": 30,
+            "physics": 30,
+            "chemistry": 30,
+            "biology": 30
+        }
+    },
+    {
+        "syllabus": "แพทยศาสตรบัณฑิต CPIRD-Inclusive โรงพยาบาลมหาสารคามจังหวัดมหาสารคาม (MD11-1103)",
+        "faculty": "คณะแพทยศาสตร์",
+        "syllabus_id": 177,
+        "minimum_sum": 50,
+        "weight": {
+            "thai": 10,
+            "english": 30,
+            "math": 15,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 15
+        },
+        "minimum_score": {
+            "thai": 30,
+            "english": 30,
+            "math": 30,
+            "physics": 30,
+            "chemistry": 30,
+            "biology": 30
+        }
+    },
+    {
+        "syllabus": "แพทยศาสตรบัณฑิต CPIRD-Inclusive โรงพยาบาลมหาสารคามจังหวัดร้อยเอ็ด (MD11-1104)",
+        "faculty": "คณะแพทยศาสตร์",
+        "syllabus_id": 178,
+        "minimum_sum": 50,
+        "weight": {
+            "thai": 10,
+            "english": 30,
+            "math": 15,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 15
+        },
+        "minimum_score": {
+            "thai": 30,
+            "english": 30,
+            "math": 30,
+            "physics": 30,
+            "chemistry": 30,
+            "biology": 30
+        }
+    },
+    {
+        "syllabus": "แพทยศาสตรบัณฑิต CPIRD-Inclusive โรงพยาบาลมหาสารคามจังหวัดหนองคาย (MD11-1105)",
+        "faculty": "คณะแพทยศาสตร์",
+        "syllabus_id": 179,
+        "minimum_sum": 50,
+        "weight": {
+            "thai": 10,
+            "english": 30,
+            "math": 15,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 15
+        },
+        "minimum_score": {
+            "thai": 30,
+            "english": 30,
+            "math": 30,
+            "physics": 30,
+            "chemistry": 30,
+            "biology": 30
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาฝรั่งเศส เลือกสอบคณิตศาสตร์",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 50,
+        "weight": {
+            "thai": 30,
+            "english": 30,
+            "math": 40
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาฝรั่งเศส เลือกสอบภาษาไทยและภาษาอังกฤษ",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 51,
+        "weight": {
+            "thai": 50,
+            "english": 50
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาฝรั่งเศส เลือกสอบภาษาฝรั่งเศส",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 52,
+        "weight": {
+            "thai": 30,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "french": 40
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาฝรั่งเศส เลือกสอบภาษาเยอรมัน",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 53,
+        "weight": {
+            "thai": 30,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "german": 40
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาฝรั่งเศส เลือกสอบภาษาจีน",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 54,
+        "weight": {
+            "thai": 30,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "chinese": 40
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาฝรั่งเศส เลือกสอบภาษาญี่ปุ่น",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 55,
+        "weight": {
+            "thai": 30,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "japanese": 40
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาฝรั่งเศส เลือกสอบภาษาเกาหลี",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 56,
+        "weight": {
+            "thai": 30,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "korean": 40
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาฝรั่งเศส เลือกสอบภาษาสเปน",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 180,
+        "weight": {
+            "thai": 30,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "spainish": 40
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาเยอรมัน เลือกสอบภาษาไทย และภาษาอังกฤษ",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 57,
+        "weight": {
+            "thai": 50,
+            "english": 50
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาเยอรมัน เลือกสอบคณิตศาสตร์",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 58,
+        "weight": {
+            "thai": 30,
+            "english": 30,
+            "math": 40
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาเยอรมัน เลือกสอบภาษาฝรั่งเศส",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 59,
+        "weight": {
+            "thai": 30,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "french": 40
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาเยอรมัน เลือกสอบภาษาจีน",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 60,
+        "weight": {
+            "thai": 30,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "chinese": 40
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาเยอรมัน เลือกสอบภาษาญี่ปุ่น",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 61,
+        "weight": {
+            "thai": 30,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "japanese": 40
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาเยอรมัน เลือกสอบภาษาเกาหลี",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 62,
+        "weight": {
+            "thai": 30,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "korean": 40
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาเยอรมัน เลือกสอบภาษาสเปน",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 63,
+        "weight": {
+            "thai": 30,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "spainish": 40
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาเยอรมัน เลือกสอบภาษาเยอรมัน",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 181,
+        "weight": {
+            "thai": 30,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "german": 40
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาสเปน เลือกสอบภาษาไทย และอังกฤษ",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 64,
+        "weight": {
+            "thai": 50,
+            "english": 50
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาสเปน เลือกสอบภาษาสเปน",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 65,
+        "weight": {
+            "thai": 30,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "spainish": 40
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาสเปน เลือกสอบภาษาฝรั่งเศส",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 66,
+        "weight": {
+            "thai": 30,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "french": 40
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาสเปน เลือกสอบคณิตศาสตร์",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 67,
+        "weight": {
+            "thai": 30,
+            "english": 30,
+            "math": 40
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาสเปน เลือกสอบภาษาจีน",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 68,
+        "weight": {
+            "thai": 30,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "chinese": 40
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาสเปน เลือกสอบภาษาญี่ปุ่น",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 69,
+        "weight": {
+            "thai": 30,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "japanese": 40
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาสเปน เลือกสอบภาษาเกาหลี",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 70,
+        "weight": {
+            "thai": 30,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "korean": 40
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาตะวันตก วิชาเอกภาษาสเปน เลือกสอบภาษาเยอรมัน",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 182,
+        "weight": {
+            "thai": 30,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "german": 40
+            }
+        }
+    },
+    {
+        "syllabus": "วิชาเอกภาษาญี่ปุ่น",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 71,
+        "weight": {
+            "thai": 20,
+            "english": 40
+        },
+        "specific_capability": {
+            "foreign": {
+                "japanese": 40
+            }
+        }
+    },
+    {
+        "syllabus": "วิชาเอกภาษาจีน (แผน A)",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 72,
+        "weight": {
+            "thai": 20,
+            "english": 40
+        },
+        "specific_capability": {
+            "foreign": {
+                "chinese": 40
+            }
+        }
+    },
+    {
+        "syllabus": "วิชาเอกภาษาจีน (แผน B)",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 73,
+        "weight": {
+            "thai": 20,
+            "english": 40
+        },
+        "specific_capability": {
+            "foreign": {
+                "chinese": 40
+            }
+        }
+    },
+    {
+        "syllabus": "วิชาเอกภาษาเกาหลี",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 74,
+        "weight": {
+            "thai": 20,
+            "english": 40
+        },
+        "specific_capability": {
+            "foreign": {
+                "korean": 40
+            }
+        }
+    },
+    {
+        "syllabus": "วิชาเอกภาษาอังกฤษ",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 75,
+        "weight": {
+            "thai": 20,
+            "english": 80
+        }
+    },
+    {
+        "syllabus": "ภาษาไทย เลือกสอบภาษาไทย และภาษาอังกฤษ",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 76,
+        "weight": {
+            "thai": 60,
+            "english": 40
+        }
+    },
+    {
+        "syllabus": "ภาษาไทย เลือกสอบคณิตศาสตร์",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 77,
+        "weight": {
+            "thai": 50,
+            "english": 30,
+            "math": 20
+        }
+    },
+    {
+        "syllabus": "ภาษาไทย เลือกสอบภาษาฝรั่งเศส",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 78,
+        "weight": {
+            "thai": 50,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "french": 20
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาไทย เลือกสอบภาษาเยอรมัน",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 79,
+        "weight": {
+            "thai": 50,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "german": 20
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาไทย เลือกสอบภาษาจีน",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 80,
+        "weight": {
+            "thai": 50,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "chinese": 20
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาไทย เลือกสอบภาษาญี่ปุ่น",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 81,
+        "weight": {
+            "thai": 50,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "japanese": 20
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาไทย เลือกสอบภาษาสเปน",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 82,
+        "weight": {
+            "thai": 50,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "spainish": 20
+            }
+        }
+    },
+    {
+        "syllabus": "ภาษาไทย เลือกสอบภาษาเกาหลี",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 183,
+        "weight": {
+            "thai": 50,
+            "english": 30
+        },
+        "specific_capability": {
+            "foreign": {
+                "korean": 20
+            }
+        }
+    },
+    {
+        "syllabus": "เอเชียตะวันออกเฉียงใต้ศึกษา เลือกสอบภาษาไทย และภาษาอังกฤษ",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 83,
+        "weight": {
+            "thai": 50,
+            "english": 50
+        }
+    },
+    {
+        "syllabus": "เอเชียตะวันออกเฉียงใต้ศึกษา เลือกสอบคณิตศาสตร์",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 84,
+        "weight": {
+            "thai": 40,
+            "english": 40,
+            "math": 20
+        }
+    },
+    {
+        "syllabus": "เอเชียตะวันออกเฉียงใต้ศึกษา เลือกสอบภาษาฝรั่งเศส",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 85,
+        "weight": {
+            "thai": 40,
+            "english": 40
+        },
+        "specific_capability": {
+            "foreign": {
+                "french": 20
+            }
+        }
+    },
+    {
+        "syllabus": "เอเชียตะวันออกเฉียงใต้ศึกษา เลือกสอบภาษาเยอรมัน",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 86,
+        "weight": {
+            "thai": 40,
+            "english": 40
+        },
+        "specific_capability": {
+            "foreign": {
+                "german": 20
+            }
+        }
+    },
+    {
+        "syllabus": "เอเชียตะวันออกเฉียงใต้ศึกษา เลือกสอบภาษาจีน",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 87,
+        "weight": {
+            "thai": 40,
+            "english": 40
+        },
+        "specific_capability": {
+            "foreign": {
+                "chinese": 20
+            }
+        }
+    },
+    {
+        "syllabus": "เอเชียตะวันออกเฉียงใต้ศึกษา เลือกสอบภาษาญี่ปุ่น",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 88,
+        "weight": {
+            "thai": 40,
+            "english": 40
+        },
+        "specific_capability": {
+            "foreign": {
+                "japanese": 20
+            }
+        }
+    },
+    {
+        "syllabus": "เอเชียตะวันออกเฉียงใต้ศึกษา เลือกสอบภาษาเกาหลี",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 89,
+        "weight": {
+            "thai": 40,
+            "english": 40
+        },
+        "specific_capability": {
+            "foreign": {
+                "korean": 20
+            }
+        }
+    },
+    {
+        "syllabus": "เอเชียตะวันออกเฉียงใต้ศึกษา เลือกสอบภาษาสเปน",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 184,
+        "weight": {
+            "thai": 40,
+            "english": 40
+        },
+        "specific_capability": {
+            "foreign": {
+                "spainish": 20
+            }
+        }
+    },
+    {
+        "syllabus": "รัฐประศาสนศาสตร์",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 90,
+        "weight": {
+            "thai": 25,
+            "english": 30,
+            "math": 15,
+            "science": 30
+        }
+    },
+    {
+        "syllabus": "พัฒนาสังคม",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 91,
+        "weight": {
+            "thai": 40,
+            "english": 30,
+            "math": 15,
+            "science": 15
+        }
+    },
+    {
+        "syllabus": "สังคมศาสตร์ วิชาเอกสังคมวิทยาและมานุษยวิทยา",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 92,
+        "weight": {
+            "thai": 40,
+            "english": 30,
+            "math": 15,
+            "science": 15
+        }
+    },
+    {
+        "syllabus": "สารสนเทศศาสตรบัณฑิต (โครงการสร้างบัณฑิตพันธุ์ใหม่)",
+        "faculty": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "syllabus_id": 93,
+        "weight": {
+            "thai": 30,
+            "english": 40,
+            "math": 15,
+            "science": 15
+        }
+    },
+    {
+        "syllabus": "กายภาพบำบัด",
+        "faculty": "คณะเทคนิคการแพทย์",
+        "syllabus_id": 94,
+        "minimum_score": {
+            "english": 30
+        },
+        "weight": {
+            "thai": 10,
+            "english": 20,
+            "math": 20,
+            "science": 10,
+            "physics": 15,
+            "chemistry": 5,
+            "biology": 20
+        }
+    },
+    {
+        "syllabus": "เทคนิคการแพทย์",
+        "faculty": "คณะเทคนิคการแพทย์",
+        "syllabus_id": 95,
+        "minimum_score": {
+            "english": 30
+        },
+        "weight": {
+            "thai": 10,
+            "english": 10,
+            "math": 10,
+            "science": 10,
+            "physics": 10,
+            "chemistry": 25,
+            "biology": 25
+        }
+    },
+    {
+        "syllabus": "สาธารณสุขศาสตร์อนามัยสิ่งแวดล้อม อาชีวอนามัยและความปลอดภัย",
+        "faculty": "คณะสาธารณสุขศาสตร์",
+        "syllabus_id": 96,
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 15,
+            "science": 15,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 15
+        }
+    },
+    {
+        "syllabus": "สาธารณสุข อนามัยสิ่งแวดล้อม",
+        "faculty": "คณะสาธารณสุขศาสตร์",
+        "syllabus_id": 97,
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 15,
+            "science": 15,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 15
+        }
+    },
+    {
+        "syllabus": "สาธารณสุขศาสตร์อนามัยสิ่งแวดล้อมและความปลอดภัย",
+        "faculty": "คณะสาธารณสุขศาสตร์",
+        "syllabus_id": 98,
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 15,
+            "science": 15,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 15
+        }
+    },
+    {
+        "syllabus": "ทันตแพทย์ศาสตร์",
+        "faculty": "คณะทันตแพทยศาสตร์",
+        "syllabus_id": 99,
+        "weight": {
+            "thai": 12,
+            "english": 25,
+            "math": 20,
+            "physics": 13,
+            "chemistry": 15,
+            "biology": 15
+        },
+        "minimum_sum": 50,
+        "minimum_score": {
+            "thai": 30,
+            "english": 30,
+            "math": 30,
+            "physics": 30,
+            "chemistry": 30,
+            "biology": 30
+        }
+    },
+    {
+        "syllabus": "สัตวแพทยศาสตร์",
+        "faculty": "คณะสัตวแพทย์ศาสตร์",
+        "syllabus_id": 100,
+        "weight": {
+            "thai": 15,
+            "english": 25,
+            "math": 15,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 15
+        }
+    },
+    {
+        "syllabus": "เภสัชศาสตร์บัณฑิต (โครงการพิเศษ)",
+        "faculty": "คณะเภสัชศาสตร์",
+        "syllabus_id": 101,
+        "weight": {
+            "thai": 10,
+            "english": 20,
+            "math": 10,
+            "physics": 15,
+            "chemistry": 25,
+            "biology": 20
+        }
+    },
+    {
+        "syllabus": "เภสัชศาสตร์บัณฑิต",
+        "faculty": "คณะเภสัชศาสตร์",
+        "syllabus_id": 102,
+        "weight": {
+            "thai": 10,
+            "english": 20,
+            "math": 10,
+            "physics": 15,
+            "chemistry": 25,
+            "biology": 20
+        }
+    },
+    {
+        "syllabus": "เภสัชศาสตร์บัณฑิต (โครงการพิเศษ นานาชาติ)",
+        "faculty": "คณะเภสัชศาสตร์",
+        "syllabus_id": 103,
+        "weight": {
+            "thai": 10,
+            "english": 20,
+            "math": 10,
+            "physics": 15,
+            "chemistry": 25,
+            "biology": 20
+        }
+    },
+    {
+        "syllabus": "เทคโนโลยีระบบการผลิตและการจัดการอุตสาหกรรม",
+        "faculty": "คณะเทคโนโลยี",
+        "syllabus_id": 104,
+        "minimum_score": {
+            "thai": 30,
+            "english": 25,
+            "math": 25,
+            "science": 25,
+            "physics": 25
+        },
+        "weight": {
+            "thai": 20,
+            "english": 20,
+            "math": 20,
+            "science": 20,
+            "physics": 20
+        }
+    },
+    {
+        "syllabus": "เทคโนโลยีการอาหาร",
+        "faculty": "คณะเทคโนโลยี",
+        "syllabus_id": 105,
+        "minimum_score": {
+            "thai": 30,
+            "english": 25,
+            "biology": 25
+        },
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 15,
+            "science": 15,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 15
+        }
+    },
+    {
+        "syllabus": "เทคโนโลยีชีวภาพ",
+        "faculty": "คณะเทคโนโลยี",
+        "syllabus_id": 106,
+        "minimum_score": {
+            "thai": 15,
+            "english": 15,
+            "math": 15,
+            "science": 20,
+            "physics": 15,
+            "chemistry": 20,
+            "biology": 20
+        },
+        "weight": {
+            "thai": 10,
+            "english": 10,
+            "math": 20,
+            "science": 10,
+            "physics": 10,
+            "chemistry": 20,
+            "biology": 20
+        }
+    },
+    {
+        "syllabus": "เทคโนโลยีธรณี",
+        "faculty": "คณะเทคโนโลยี",
+        "syllabus_id": 107,
+        "minimum_score": {
+            "thai": 20,
+            "english": 20,
+            "math": 15,
+            "science": 20,
+            "physics": 15,
+            "chemistry": 20,
+            "biology": 20
+        },
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 15,
+            "science": 20,
+            "physics": 15,
+            "chemistry": 15,
+            "biology": 10
+        }
+    },
+    {
+        "syllabus": "สถาปัตยกรรมศาสตร์บัณฑิต",
+        "faculty": "คณะสถาปัตยกรรมศาสตร์",
+        "syllabus_id": 108,
+        "weight": {
+            "english": 15,
+            "math": 20,
+            "science": 25
+        },
+        "specific_capability": {
+            "architect": {
+                "architect": 40,
+                "design": 0
+            }
+        }
+    },
+    {
+        "syllabus": "การออกแบบ",
+        "faculty": "คณะสถาปัตยกรรมศาสตร์",
+        "syllabus_id": 109,
+        "weight": {
+            "english": 10,
+            "math": 25,
+            "science": 25
+        },
+        "specific_capability": {
+            "architect": {
+                "design": 40
+            }
+        }
+    },
+    {
+        "syllabus": "บริหารธุรกิจบัณฑิต สาขาวิชาผู้ประกอบการดิจิทัล",
+        "faculty": "คณะบริหารธุรกิจและการบัญชี",
+        "syllabus_id": 110,
+        "weight": {
+            "thai": 25,
+            "english": 25,
+            "math": 25,
+            "science": 25
+        }
+    },
+    {
+        "syllabus": "การเงิน",
+        "faculty": "คณะบริหารธุรกิจและการบัญชี",
+        "syllabus_id": 111,
+        "weight": {
+            "thai": 20,
+            "english": 35,
+            "math": 35,
+            "science": 10
+        }
+    },
+    {
+        "syllabus": "การจัดการ การประกอบพาณิชย์ และนวัตกรรม",
+        "faculty": "คณะบริหารธุรกิจและการบัญชี",
+        "syllabus_id": 112,
+        "weight": {
+            "thai": 25,
+            "english": 30,
+            "math": 25,
+            "science": 20
+        }
+    },
+    {
+        "syllabus": "การจัดการธุรกิจบริการและอีเว้นท์",
+        "faculty": "คณะบริหารธุรกิจและการบัญชี",
+        "syllabus_id": 113,
+        "weight": {
+            "thai": 25,
+            "english": 35,
+            "math": 25,
+            "science": 15
+        }
+    },
+    {
+        "syllabus": "เทคโนโลยีการตลาด",
+        "faculty": "คณะบริหารธุรกิจและการบัญชี",
+        "syllabus_id": 114,
+        "weight": {
+            "thai": 25,
+            "english": 25,
+            "math": 25,
+            "science": 25
+        }
+    },
+    {
+        "syllabus": "บัญชีบัณฑิต",
+        "faculty": "คณะบริหารธุรกิจและการบัญชี",
+        "syllabus_id": 115,
+        "weight": {
+            "thai": 10,
+            "english": 40,
+            "math": 40,
+            "science": 10
+        }
+    },
+    {
+        "syllabus": "บัญชีบัณฑิต (หลักสูตรนานาชาติ)",
+        "faculty": "คณะบริหารธุรกิจและการบัญชี",
+        "syllabus_id": 116,
+        "weight": {
+            "thai": 35,
+            "english": 35,
+            "math": 30
+        }
+    },
+    {
+        "syllabus": "การจัดการนวัตกรรมการท่องเที่ยว",
+        "faculty": "คณะบริหารธุรกิจและการบัญชี",
+        "syllabus_id": 117,
+        "weight": {
+            "thai": 25,
+            "english": 40,
+            "math": 25,
+            "science": 10
+        }
+    },
+    {
+        "syllabus": "การจัดการนวัตกรรมการท่องเที่ยว (กลุ่มเรียนภาษาอังกฤษ)",
+        "faculty": "คณะบริหารธุรกิจและการบัญชี",
+        "syllabus_id": 118,
+        "weight": {
+            "thai": 25,
+            "english": 40,
+            "math": 25,
+            "science": 10
+        }
+    },
+    {
+        "syllabus": "การจัดการนวัตกรรมการท่องเที่ยว (กลุ่มเรียนภาษาไทยและภาษาอังกฤษ)",
+        "faculty": "คณะบริหารธุรกิจและการบัญชี",
+        "syllabus_id": 186,
+        "weight": {
+            "thai": 20,
+            "english": 40,
+            "math": 25,
+            "science": 15
+        }
+    },
+    {
+        "syllabus": "นิติศาสตร์ (โครงการพิเศษ)",
+        "faculty": "คณะนิติศาสตร์",
+        "syllabus_id": 119,
+        "weight": {
+            "thai": 25,
+            "english": 25,
+            "math": 25,
+            "science": 25
+        }
+    },
+    {
+        "syllabus": "ทัศนศิลป์",
+        "faculty": "คณะศิลปกรรมศาสตร์",
+        "syllabus_id": 120,
+        "weight": {
+            "thai": 15,
+            "english": 10,
+            "math": 10,
+            "science": 15
+        },
+        "specific_capability": {
+            "fine_arts": {
+                "drawing": 25,
+                "makeup": 25
+            }
+        }
+    },
+    {
+        "syllabus": "ออกแบบนิเทศศิลป์",
+        "faculty": "คณะศิลปกรรมศาสตร์",
+        "syllabus_id": 121,
+        "weight": {
+            "thai": 15,
+            "english": 10,
+            "math": 10,
+            "science": 15
+        },
+        "specific_capability": {
+            "fine_arts": {
+                "draw_communication": 25,
+                "visual_art": 25
+            }
+        }
+    },
+    {
+        "syllabus": "ดุริยางคศาสตร์บัณฑิต กลุ่มวิชาดนตรีพื้นเมือง",
+        "faculty": "คณะศิลปกรรมศาสตร์",
+        "syllabus_id": 122,
+        "weight": {
+            "thai": 10,
+            "english": 10,
+            "math": 10,
+            "science": 10
+        },
+        "specific_capability": {
+            "fine_arts": {
+                "music": 60
+            }
+        }
+    },
+    {
+        "syllabus": "ดุริยางคศาสตร์บัณฑิต กลุ่มวิชาดนตรีไทย",
+        "faculty": "คณะศิลปกรรมศาสตร์",
+        "syllabus_id": 185,
+        "weight": {
+            "thai": 10,
+            "english": 10,
+            "math": 10,
+            "science": 10
+        },
+        "specific_capability": {
+            "fine_arts": {
+                "music": 60
+            }
+        }
+    },
+    {
+        "syllabus": "ดุริยางคศาสตร์บัณฑิต กลุ่มวิชาดนตรีตะวันตก",
+        "faculty": "คณะศิลปกรรมศาสตร์",
+        "syllabus_id": 187,
+        "weight": {
+            "thai": 10,
+            "english": 10,
+            "math": 10,
+            "science": 10
+        },
+        "specific_capability": {
+            "fine_arts": {
+                "music": 60
+            }
+        }
+    },
+    {
+        "syllabus": "นาฎศิลป์",
+        "faculty": "คณะศิลปกรรมศาสตร์",
+        "syllabus_id": 123,
+        "weight": {
+            "thai": 15,
+            "english": 10,
+            "math": 10,
+            "science": 15
+        },
+        "specific_capability": {
+            "fine_arts": {
+                "dance": 50
+            }
+        }
+    },
+    {
+        "syllabus": "การจัดการท่องเที่ยว (นานาชาติ)",
+        "faculty": "วิทยาลัยนานาชาติ",
+        "syllabus_id": 124,
+        "minimum_score": {
+            "english": 20
+        },
+        "weight": {
+            "english": 80,
+            "math": 20
+        }
+    },
+    {
+        "syllabus": "การระหว่างประเทศ (หลักสูตรนานาชาติ)",
+        "faculty": "วิทยาลัยนานาชาติ",
+        "syllabus_id": 125,
+        "minimum_score": {
+            "english": 25
+        },
+        "weight": {
+            "english": 100
+        }
+    },
+    {
+        "syllabus": "นิเทศศาสตรบัณฑิต วิชาเอกเทคโนโลยีสื่อสร้างสรรค์",
+        "faculty": "วิทยาลัยนานาชาติ",
+        "syllabus_id": 126,
+        "minimum_score": {
+            "english": 20
+        },
+        "weight": {
+            "english": 100
+        }
+    },
+    {
+        "syllabus": "นิเทศศาสตรบัณฑิต วิชาเอกวารสารศาสตร์ระหว่างประเทศ",
+        "faculty": "วิทยาลัยนานาชาติ",
+        "syllabus_id": 127,
+        "minimum_score": {
+            "english": 20
+        },
+        "weight": {
+            "english": 100
+        }
+    },
+    {
+        "syllabus": "การบริหารธุรกิจบัณฑิต (หลักสูตรนานาชาติ) วิชาเอกการตลาดระหว่างประเทศ",
+        "faculty": "วิทยาลัยนานาชาติ",
+        "syllabus_id": 128,
+        "minimum_score": {
+            "english": 20,
+            "math": 20
+        },
+        "weight": {
+            "english": 70,
+            "math": 30
+        }
+    },
+    {
+        "syllabus": "การบริหารธุรกิจบัณฑิต (หลักสูตรนานาชาติ) วิชาเอกการเป็นผู้ประกอบการระหว่างประเทศ",
+        "faculty": "วิทยาลัยนานาชาติ",
+        "syllabus_id": 129,
+        "minimum_score": {
+            "english": 20,
+            "math": 20
+        },
+        "weight": {
+            "english": 70,
+            "math": 30
+        }
+    },
+    {
+        "syllabus": "การบริหารธุรกิจบัณฑิต (หลักสูตรนานาชาติ) วิชาเอกธุรกิจสากล",
+        "faculty": "วิทยาลัยนานาชาติ",
+        "syllabus_id": 130,
+        "minimum_score": {
+            "english": 20,
+            "math": 20
+        },
+        "weight": {
+            "english": 70,
+            "math": 30
+        }
+    },
+    {
+        "syllabus": "เศรษฐศาสตร์บัณฑิต",
+        "faculty": "คณะเศรษฐศาสตร์",
+        "syllabus_id": 131,
+        "weight": {
+            "english": 50,
+            "math": 30,
+            "science": 20
+        },
+        "minimum_score": {
+            "english": 15,
+            "math": 15
+        }
+    },
+    {
+        "syllabus": "เศรษฐศาสตร์บัณฑิต (หลักสูตรนานาชาติ)",
+        "faculty": "คณะเศรษฐศาสตร์",
+        "syllabus_id": 132,
+        "weight": {
+            "english": 50,
+            "math": 30,
+            "science": 20
+        },
+        "minimum_score": {
+            "english": 30,
+            "math": 15
+        }
+    },
+    {
+        "syllabus": "การจัดการปกครองและกิจการสาธารณะ สมรรถนะด้านคณิตศาสตร์",
+        "faculty": "วิทยาลัยการปกครองท้องถิ่น",
+        "syllabus_id": 133,
+        "weight": {
+            "thai": 20,
+            "english": 35,
+            "math": 20,
+            "science": 25
+        }
+    },
+    {
+        "syllabus": "การจัดการปกครองและกิจการสาธารณะ สมรรถนะด้านภาษาฝรั่งเศส",
+        "faculty": "วิทยาลัยการปกครองท้องถิ่น",
+        "syllabus_id": 134,
+        "weight": {
+            "thai": 20,
+            "english": 35,
+            "science": 25
+        },
+        "specific_capability": {
+            "foreign": {
+                "french": 20
+            }
+        }
+    },
+    {
+        "syllabus": "การจัดการปกครองและกิจการสาธารณะ สมรรถนะด้านภาษาเยอรมัน",
+        "faculty": "วิทยาลัยการปกครองท้องถิ่น",
+        "syllabus_id": 135,
+        "weight": {
+            "thai": 20,
+            "english": 35,
+            "science": 25
+        },
+        "specific_capability": {
+            "foreign": {
+                "german": 20
+            }
+        }
+    },
+    {
+        "syllabus": "การจัดการปกครองและกิจการสาธารณะ สมรรถนะด้านภาษาจีน",
+        "faculty": "วิทยาลัยการปกครองท้องถิ่น",
+        "syllabus_id": 136,
+        "weight": {
+            "thai": 20,
+            "english": 35,
+            "science": 25
+        },
+        "specific_capability": {
+            "foreign": {
+                "chinese": 20
+            }
+        }
+    },
+    {
+        "syllabus": "การจัดการปกครองและกิจการสาธารณะ สมรรถนะด้านภาษาญี่ปุ่น",
+        "faculty": "วิทยาลัยการปกครองท้องถิ่น",
+        "syllabus_id": 137,
+        "weight": {
+            "thai": 20,
+            "english": 35,
+            "science": 25
+        },
+        "specific_capability": {
+            "foreign": {
+                "japanese": 20
+            }
+        }
+    },
+    {
+        "syllabus": "การจัดการการเงินและการคลัง สมรรถนะด้านคณิตศาสตร์",
+        "faculty": "วิทยาลัยการปกครองท้องถิ่น",
+        "syllabus_id": 138,
+        "weight": {
+            "thai": 20,
+            "english": 35,
+            "math": 20,
+            "science": 25
+        }
+    },
+    {
+        "syllabus": "การจัดการการเงินและการคลัง สมรรถนะด้านภาษาฝรั่งเศส",
+        "faculty": "วิทยาลัยการปกครองท้องถิ่น",
+        "syllabus_id": 139,
+        "weight": {
+            "thai": 20,
+            "english": 35,
+            "science": 25
+        },
+        "specific_capability": {
+            "foreign": {
+                "french": 20
+            }
+        }
+    },
+    {
+        "syllabus": "การจัดการการเงินและการคลัง สมรรถนะด้านภาษาเยอรมัน",
+        "faculty": "วิทยาลัยการปกครองท้องถิ่น",
+        "syllabus_id": 140,
+        "weight": {
+            "thai": 20,
+            "english": 35,
+            "science": 25
+        },
+        "specific_capability": {
+            "foreign": {
+                "german": 20
+            }
+        }
+    },
+    {
+        "syllabus": "การจัดการการเงินและการคลัง สมรรถนะด้านภาษาจีน",
+        "faculty": "วิทยาลัยการปกครองท้องถิ่น",
+        "syllabus_id": 141,
+        "weight": {
+            "thai": 20,
+            "english": 35,
+            "science": 25
+        },
+        "specific_capability": {
+            "foreign": {
+                "chinese": 20
+            }
+        }
+    },
+    {
+        "syllabus": "การจัดการการเงินและการคลัง สมรรถนะด้านภาษาญี่ปุ่น",
+        "faculty": "วิทยาลัยการปกครองท้องถิ่น",
+        "syllabus_id": 142,
+        "weight": {
+            "thai": 20,
+            "english": 35,
+            "science": 25
+        },
+        "specific_capability": {
+            "foreign": {
+                "japanese": 20
+            }
+        }
+    },
+    {
+        "syllabus": "การจัดการเมืองและเทคโนโลยีเมือง สมรรถนะด้านคณิตศาสตร์",
+        "faculty": "วิทยาลัยการปกครองท้องถิ่น",
+        "syllabus_id": 143,
+        "weight": {
+            "thai": 20,
+            "english": 35,
+            "math": 20,
+            "science": 25
+        }
+    },
+    {
+        "syllabus": "การจัดการเมืองและเทคโนโลยีเมือง สมรรถนะด้านภาษาฝรั่งเศส",
+        "faculty": "วิทยาลัยการปกครองท้องถิ่น",
+        "syllabus_id": 144,
+        "weight": {
+            "thai": 20,
+            "english": 35,
+            "science": 25
+        },
+        "specific_capability": {
+            "foreign": {
+                "french": 20
+            }
+        }
+    },
+    {
+        "syllabus": "การจัดการเมืองและเทคโนโลยีเมือง สมรรถนะด้านภาษาเยอรมัน",
+        "faculty": "วิทยาลัยการปกครองท้องถิ่น",
+        "syllabus_id": 145,
+        "weight": {
+            "thai": 20,
+            "english": 35,
+            "science": 25
+        },
+        "specific_capability": {
+            "foreign": {
+                "german": 20
+            }
+        }
+    },
+    {
+        "syllabus": "การจัดการเมืองและเทคโนโลยีเมือง สมรรถนะด้านภาษาจีน",
+        "faculty": "วิทยาลัยการปกครองท้องถิ่น",
+        "syllabus_id": 146,
+        "weight": {
+            "thai": 20,
+            "english": 35,
+            "science": 25
+        },
+        "specific_capability": {
+            "foreign": {
+                "chinese": 20
+            }
+        }
+    },
+    {
+        "syllabus": "การจัดการเมืองและเทคโนโลยีเมือง สมรรถนะด้านภาษาญี่ปุ่น",
+        "faculty": "วิทยาลัยการปกครองท้องถิ่น",
+        "syllabus_id": 147,
+        "weight": {
+            "thai": 20,
+            "english": 35,
+            "science": 25
+        },
+        "specific_capability": {
+            "foreign": {
+                "japanese": 20
+            }
+        }
+    },
+    {
+        "syllabus": "เทคโนโลยีสารสนเทศ (โครงการพิเศษ)",
+        "faculty": "วิทยาลัยการคอมพิวเตอร์",
+        "syllabus_id": 148,
+        "weight": {
+            "thai": 10,
+            "english": 10,
+            "math": 20,
+            "science": 40,
+            "physics": 20
+        }
+    },
+    {
+        "syllabus": "เทคโนโลยีสารสนเทศ",
+        "faculty": "วิทยาลัยการคอมพิวเตอร์",
+        "syllabus_id": 149,
+        "weight": {
+            "thai": 10,
+            "english": 10,
+            "math": 20,
+            "science": 40,
+            "physics": 20
+        }
+    },
+    {
+        "syllabus": "ภูมิสารสนเทศศาสตร์ (โครงการพิเศษ)",
+        "faculty": "วิทยาลัยการคอมพิวเตอร์",
+        "syllabus_id": 150,
+        "weight": {
+            "thai": 10,
+            "english": 10,
+            "math": 20,
+            "science": 45,
+            "physics": 15
+        }
+    },
+    {
+        "syllabus": "ภูมิสารสนเทศศาสตร์",
+        "faculty": "วิทยาลัยการคอมพิวเตอร์",
+        "syllabus_id": 151,
+        "weight": {
+            "thai": 10,
+            "english": 10,
+            "math": 20,
+            "science": 45,
+            "physics": 15
+        }
+    },
+    {
+        "syllabus": "วิทยาการคอมพิวเตอร์ (โครงการพิเศษ)",
+        "faculty": "วิทยาลัยการคอมพิวเตอร์",
+        "syllabus_id": 152,
+        "weight": {
+            "thai": 5,
+            "english": 15,
+            "math": 25,
+            "science": 40,
+            "physics": 15
+        }
+    },
+    {
+        "syllabus": "วิทยาการคอมพิวเตอร์",
+        "faculty": "วิทยาลัยการคอมพิวเตอร์",
+        "syllabus_id": 153,
+        "weight": {
+            "thai": 5,
+            "english": 15,
+            "math": 25,
+            "science": 40,
+            "physics": 15
+        }
+    },
+    {
+        "syllabus": "นวัตกรรมการท่องเที่ยวและการบริการ",
+        "faculty": "คณะสหวิทยาการ",
+        "syllabus_id": 154,
+        "weight": {
+            "thai": 20,
+            "english": 40,
+            "math": 20,
+            "science": 20
+        }
+    },
+    {
+        "syllabus": "การสอนภาษาอังกฤษในฐานะภาษาต่างประเทศ",
+        "faculty": "คณะสหวิทยาการ",
+        "syllabus_id": 155,
+        "weight": {
+            "thai": 20,
+            "english": 60,
+            "math": 10,
+            "science": 10
+        }
+    },
+    {
+        "syllabus": "เทคโนโลยีการผลิตสัตว์น้ำ",
+        "faculty": "คณะสหวิทยาการ",
+        "syllabus_id": 156,
+        "weight": {
+            "thai": 20,
+            "english": 10,
+            "math": 20,
+            "chemistry": 15,
+            "biology": 35
+        }
+    },
+    {
+        "syllabus": "เทคโนโลยีและนวัตกรรมอาหาร",
+        "faculty": "คณะสหวิทยาการ",
+        "syllabus_id": 157,
+        "weight": {
+            "thai": 10,
+            "english": 10,
+            "math": 20,
+            "science": 20,
+            "chemistry": 20,
+            "biology": 20
+        }
+    },
+    {
+        "syllabus": "บริหารธุรกิจบัณฑิต วิชาเอกการเงินธุรกิจ",
+        "faculty": "คณะสหวิทยาการ",
+        "syllabus_id": 158,
+        "weight": {
+            "thai": 20,
+            "english": 40,
+            "math": 20,
+            "science": 20
+        }
+    },
+    {
+        "syllabus": "บริหารธุรกิจบัณฑิต วิชาเอกธุรกิจระหว่างประเทศ",
+        "faculty": "คณะสหวิทยาการ",
+        "syllabus_id": 159,
+        "weight": {
+            "thai": 20,
+            "english": 40,
+            "math": 20,
+            "science": 20
+        }
+    },
+    {
+        "syllabus": "บัญชีบัณฑิต",
+        "faculty": "คณะสหวิทยาการ",
+        "syllabus_id": 160,
+        "weight": {
+            "thai": 20,
+            "english": 30,
+            "math": 30,
+            "science": 20
+        }
+    },
+    {
+        "syllabus": "ภาษาอังกฤษเพื่อการจัดการธุรกิจ",
+        "faculty": "คณะสหวิทยาการ",
+        "syllabus_id": 161,
+        "weight": {
+            "thai": 30,
+            "english": 60,
+            "math": 5,
+            "science": 5
+        }
+    },
+    {
+        "syllabus": "รัฐประศาสนศาสตร์",
+        "faculty": "คณะสหวิทยาการ",
+        "syllabus_id": 162,
+        "weight": {
+            "thai": 40,
+            "english": 30,
+            "math": 15,
+            "science": 15
+        }
+    },
+    {
+        "syllabus": "วิทยาการคอมพิวเตอร์และสารสนเทศ วิชาเอก วิทยาการข้อมูลและปัญญาประดิษฐ์",
+        "faculty": "คณะสหวิทยาการ",
+        "syllabus_id": 163,
+        "weight": {
+            "thai": 25,
+            "english": 25,
+            "math": 30,
+            "science": 20
+        }
+    },
+    {
+        "syllabus": "วิทยาการคอมพิวเตอร์และสารสนเทศ วิชาเอก วิทยาการคอมพิวเตอร์และสารสนเทศ",
+        "faculty": "คณะสหวิทยาการ",
+        "syllabus_id": 164,
+        "weight": {
+            "thai": 20,
+            "english": 25,
+            "math": 30,
+            "science": 25
+        }
+    },
+    {
+        "syllabus": "วิทยาศาสตร์การกีฬานวัตกรรมและสุขภาพ",
+        "faculty": "คณะสหวิทยาการ",
+        "syllabus_id": 165,
+        "weight": {
+            "thai": 15,
+            "english": 15,
+            "math": 10,
+            "science": 30,
+            "physics": 10,
+            "biology": 20
+        }
+    },
+    {
+        "syllabus": "วิทยาศาสตร์สิ่งแวดล้อมและทรัพยากรธรรมชาติ",
+        "faculty": "คณะสหวิทยาการ",
+        "syllabus_id": 166,
+        "weight": {
+            "thai": 10,
+            "english": 15,
+            "math": 25,
+            "chemistry": 25,
+            "biology": 25
+        }
+    },
+    {
+        "syllabus": "เศรษฐศาสตร์ระหว่างประเทศ นวัตกรรม และความยั่งยืน",
+        "faculty": "คณะสหวิทยาการ",
+        "syllabus_id": 167,
+        "weight": {
+            "thai": 40,
+            "english": 30,
+            "math": 20,
+            "science": 10
+        }
+    },
+    {
+        "syllabus": "สาขาวิชานิติศาสตร์",
+        "faculty": "คณะสหวิทยาการ",
+        "syllabus_id": 188,
+        "weight": {
+            "thai": 40,
+            "english": 40,
+            "math": 10,
+            "science": 10
+        }
+    }
+]
