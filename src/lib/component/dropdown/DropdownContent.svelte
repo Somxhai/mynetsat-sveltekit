@@ -1,0 +1,22 @@
+<script lang="ts">
+	import type { Writable } from 'svelte/store';
+	import { twMerge } from 'tailwind-merge';
+	export let active: Writable<boolean>;
+	export let className = '';
+	export { className as class };
+</script>
+
+{#if $active}
+	<button
+		on:click={() => active.set(!$active)}
+		class="fixed top-0 left-0 z-50 h-full w-full  cursor-default"
+	/>
+	<div
+		class={twMerge(
+			'absolute z-50 bg-white shadow-md rounded-md dark:shadow-zinc-800 border-1 border-slate-100 dark:bg-black dark:border-zinc-800',
+			className
+		)}
+	>
+		<slot />
+	</div>
+{/if}
