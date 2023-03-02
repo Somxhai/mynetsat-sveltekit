@@ -24,7 +24,7 @@
 		bind:value
 		class={twMerge(
 			`flex h-10 w-full rounded-md border dark:border-gray-600 dark:focus:border-white ${
-				highlight && 'border-blue-400'
+				highlight && 'border-blue-400 dark:border-blue-400'
 			} bg-transparent py-2 px-3 text-sm placeholder:text-slate-400 dark:placeholder:text-gray-400 focus:outline-none focus:ring-2 dark:ring-offset-black focus:ring-offset-2 focus:ring-sky-600`,
 			className
 		)}
@@ -37,7 +37,7 @@
 		bind:value
 		class={twMerge(
 			`flex h-10 w-full rounded-md border dark:border-gray-600 dark:focus:border-white  ${
-				highlight && 'border-blue-400'
+				highlight && 'border-blue-400 dark:border-blue-400'
 			} bg-transparent py-2 px-3 text-sm placeholder:text-slate-400 dark:placeholder:text-gray-400 focus:outline-none focus:ring-2 dark:ring-offset-black focus:ring-offset-2 focus:ring-sky-600`,
 			className
 		)}
