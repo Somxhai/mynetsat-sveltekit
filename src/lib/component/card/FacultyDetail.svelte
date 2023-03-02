@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { NetsatType } from '$lib/types';
-	import FacultyNetsatTable from '$lib/ui/table/FacultyNetsatTable.svelte';
-	import FacultySpecificCapablityTable from '$lib/ui/table/FacultySpecificCapablityTable.svelte';
+	import FacultyNetsatTable from '$lib/component/table/FacultyNetsatTable.svelte';
+	import FacultySpecificCapablityTable from '$lib/component/table/FacultySpecificCapablityTable.svelte';
 
 	export let isActive = false;
 	export let data: NetsatType;
