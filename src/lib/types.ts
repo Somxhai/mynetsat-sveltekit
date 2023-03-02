@@ -2,12 +2,18 @@ export type Dialogues = 'PAYMENT_QR' | 'FACULTIES' | 'NONE';
 
 export type ScoreError = 'NONE' | 'INCOMPLETE' | 'MINIMUM' | 'MINIMUM_SUM';
 
-export interface NetsatAPI {
-	syllabusCount: number
-	facultyCount: number
-	dataDate: string
-	netsat: NetsatType[]
+export interface Settings {
+	leftHand: boolean;
 }
+export type Theme = 'dark' | 'light';
+export interface NetsatAPI {
+	syllabusCount: number;
+	facultyCount: number;
+	dataDate: string;
+	netsat: NetsatType[];
+}
+
+export interface Scores extends Weight, AllSpecificCapabilities {}
 export interface ScoreReport {
 	error: ScoreError;
 	score: number;
