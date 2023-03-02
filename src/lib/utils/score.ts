@@ -1,4 +1,12 @@
-import type { NetsatType, ScoreReport, SpecificCapability, Weight, MinimumScore } from '$lib/types';
+import { scores } from '$lib/stores';
+import type {
+	NetsatType,
+	ScoreReport,
+	SpecificCapability,
+	Weight,
+	MinimumScore,
+	Scores
+} from '$lib/types';
 import { foreign, fineArts, engineer, architect, education, medicalVision } from './capabilitykeys';
 
 export const getScore: svelte.JSX.EventHandler<SubmitEvent, HTMLFormElement> = ({
@@ -16,7 +24,7 @@ export const getScore: svelte.JSX.EventHandler<SubmitEvent, HTMLFormElement> = (
 	return Object.fromEntries(result);
 };
 
-export const calculateNetsatScore = (score: Weight, weight: Weight): ScoreReport => {
+export const calculateNetsatScore = (score: Scores, weight: Weight): ScoreReport => {
 	let sum = 0;
 
 	for (const subject of Object.keys(weight)) {
@@ -30,7 +38,7 @@ export const calculateNetsatScore = (score: Weight, weight: Weight): ScoreReport
 	return { error: 'NONE', score: sum };
 };
 
-export const filterSpecificCapability = (scores: Weight) => {
+export const filterSpecificCapability = (scores: Scores) => {
 	const specificCapabilities = [
 		...foreign,
 		...fineArts,
@@ -136,7 +144,7 @@ export const getCapabilities = (specificCapability: SpecificCapability) => {
 	return capablities;
 };
 
-export const isPassMinimumScore = (score: Weight, minimumScore: MinimumScore) => {
+export const isPassMinimumScore = (score: Scores, minimumScore: MinimumScore) => {
 	if (!minimumScore) {
 		return false;
 	}
