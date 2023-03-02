@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-	<title>เว็บไซต์สำหรับคำนวณคะแนน Netsat | Netsat</title>
+	<title>เว็บไซต์สำหรับคำนวณคะแนน Netsat | MyNetsat</title>
 </svelte:head>
 
 <PaymentSupport />
