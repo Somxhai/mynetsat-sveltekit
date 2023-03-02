@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
+	darkMode: 'class',
 	theme: {
 		borderWidth: {
 			DEFAULT: '1px',
@@ -11,6 +12,7 @@ module.exports = {
 			6: '6px',
 			8: '8px'
 		},
+
 		extend: {
 			fontFamily: {
 				kanit: ['Kanit', 'sans-serif'],
@@ -31,8 +33,5 @@ module.exports = {
 			}
 		}
 	},
-	plugins: [
-		require('@tailwindcss/forms')({ strategy: 'class' }),
-		require('@tailwindcss/line-clamp')
-	]
+	plugins: [require('@tailwindcss/forms')({ strategy: 'class' })]
 };
