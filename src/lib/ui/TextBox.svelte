@@ -12,12 +12,7 @@
 
 <div class="grid w-full max-w-sm items-center gap-2 ">
 	<Label htmlFor={name} text={title} />
-	<Input
-		highlight=" {highlight && 'border-blue-600 focus:ring-sky-600'}"
-		inputType={type}
-		{name}
-		{placeholder}
-	/>
+	<Input {highlight} inputType={type} {name} {placeholder} />
 	{#if description}
 		<p class="text-xs text-slate-500">{description}</p>
 	{/if}
