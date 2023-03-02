@@ -1,12 +1,12 @@
 <script lang="ts">
 	import SearchCard from '$lib/component/card/SearchCard.svelte';
 	import MediumContainer from '$lib/component/container/MediumContainer.svelte';
-	import { netsat } from '$lib/stores';
+	import { netsatData } from '$lib/stores';
 	export let search: string;
 
 	import type { NetsatType } from '$lib/types';
 
-	$: searchResult = $netsat
+	$: searchResult = $netsatData
 		.filter((data) => {
 			const SEARCH_IS_RELATIVE = (data.faculty + ' ' + data.syllabus).includes(search.trim());
 			if (SEARCH_IS_RELATIVE) {
@@ -19,7 +19,7 @@
 </script>
 
 {#if searchResult.length > 0}
-	<section class="[&>*]:border-b-2 first:border-black max-h-[30rem] overflow-y-auto">
+	<section class="[&>*]:border-b-2 dark:[&>*]:border-black first:border-black   max-h-[30rem] overflow-y-auto">
 		{#each searchResult as result}
 			<svelte:component this={result.component} data={result.value} />
 		{/each}

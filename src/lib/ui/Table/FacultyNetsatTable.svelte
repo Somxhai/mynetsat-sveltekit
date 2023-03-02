@@ -17,7 +17,7 @@
 		{#each Object.keys(weight) as subject}
 			<tr class="text-center">
 				<td class="truncate max-w-[8rem] text-sm md:max-w-none">{translateNetsat(subject)}</td>
-				<td class="text-xs text-slate-700">{weight[subject]}</td>
+				<td class="text-xs text-slate-700 dark:text-slate-300">{weight[subject]}</td>
 				{#if minimum}
 					<td class="text-xs text-orange-500">{minimum[subject] ?? '--'}</td>
 				{/if}

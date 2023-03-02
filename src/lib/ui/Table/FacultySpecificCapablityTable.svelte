@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { SpecificCapability } from '$lib/types';
 	import { getCapabilities } from '$lib/utils/score';
-	import { translateNetsat, translateSpecificCapablity } from '$lib/utils/translate';
+	import { translateSpecificCapablity } from '$lib/utils/translate';
 	export let weight: SpecificCapability;
 </script>
 
@@ -16,7 +16,7 @@
 				<td class="truncate max-w-[8rem] text-sm md:max-w-none"
 					>{translateSpecificCapablity(capablity)}</td
 				>
-				<td class="text-xs text-slate-700">{score}</td>
+				<td class="text-xs text-slate-700 dark:text-slate-300">{score}</td>
 			</tr>
 		{/each}
 	</tbody>

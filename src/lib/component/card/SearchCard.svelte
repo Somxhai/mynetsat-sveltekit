@@ -17,15 +17,15 @@
 					return previous.add(data);
 			  });
 	}}
-	class="text-left p-2 bg-slate-100 w-full flex items-center px-2 cursor-pointer justify-between"
+	class="text-left p-2 bg-slate-100 dark:bg-zinc-900 w-full flex items-center px-2 cursor-pointer justify-between"
 >
 	<blockquote class="text-left">
 		<span class="text-sm md:text-base">{data.syllabus}</span>
-		<p class="text-xs md:text-sm text-slate-500">{data.faculty}</p>
+		<p class="text-xs md:text-sm text-slate-500 dark:text-slate-300">{data.faculty}</p>
 	</blockquote>
 	<input
 		checked={active}
 		type="checkbox"
-		class="form-checkbox rounded-lg ring-0 outline-none cursor-pointer"
+		class="form-checkbox rounded-lg dark:bg-zinc-800 dark:checked:bg-blue-600 ring-0 outline-none cursor-pointer"
 	/>
 </button>
