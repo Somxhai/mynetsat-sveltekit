@@ -2,6 +2,7 @@
 	import { browser } from '$app/environment';
 
 	import { dialogue, netsatData, settings, theme } from '$lib/stores';
+	import Footer from '$lib/ui/Footer.svelte';
 	import Navbar from '$lib/ui/navbar/Navbar.svelte';
 
 	import '../../app.css';
@@ -19,4 +20,5 @@
 <Navbar />
 <main class="relative py-6 top-16 lg:gap-10 lg:py-10 dark:bg-black dark:text-slate-100 pb-[8rem]">
 	<slot />
+	<Footer />
 </main>
