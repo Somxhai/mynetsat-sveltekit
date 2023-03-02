@@ -7,7 +7,11 @@
 	export let data: NetsatType;
 </script>
 
-<div class="{isActive ? 'block' : 'hidden'} relative -top-2 w-full bg-white dark:bg-black pb-4 rounded-b-md">
+<div
+	class="{isActive
+		? 'block'
+		: 'hidden'} relative -top-2 w-full bg-white dark:bg-black pb-4 rounded-b-md"
+>
 	<section class="border-y-1 mx-2 py-2">
 		<p class="text-center">ความฉลาดรู้</p>
 		<FacultyNetsatTable weight={data.weight} minimum={data.minimum_score} />
