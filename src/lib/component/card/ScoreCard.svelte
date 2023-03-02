@@ -1,8 +1,6 @@
 <script lang="ts">
-	import { calculate, scores, selectFaculty } from '$lib/stores';
+	import { calculate, scores } from '$lib/stores';
 	import type { NetsatType, ScoreError, Weight } from '$lib/types';
-	import FacultyNetsatTable from '$lib/ui/Table/FacultyNetsatTable.svelte';
-	import FacultySpecificCapablityTable from '$lib/ui/Table/FacultySpecificCapablityTable.svelte';
 	import {
 		calculateNetsatScore,
 		calculateSpecificCapablityScore,
@@ -16,7 +14,8 @@
 	import Incomplete from '../icons/Incomplete.svelte';
 	import Minimum from '../icons/Minimum.svelte';
 	import MinimumSum from '../icons/MinimumSum.svelte';
-	import Trash from '../icons/Trash.svelte';
+	import FacultyDetail from './FacultyDetail.svelte';
+	import RemoveFaculty from './RemoveFaculty.svelte';
 
 	export let data: NetsatType;
 	let isActive = false;
@@ -24,6 +23,7 @@
 	let calculatedScore: string = '0.000';
 	let scoreError: ScoreError = 'NONE';
 	let icon = { component: Incomplete, title: 'กรอกคะแนนไม่ครบ' };
+
 	const scoreListener = (toggle: boolean, scoreListener: Weight) => {
 		let sum = 0;
 		const Netsat = calculateNetsatScore($scores, data.weight);
@@ -82,30 +82,18 @@
 	}
 </script>
 
-<section class="flex">
-	<button
-		on:click={() => {
-			selectFaculty.update((previous) => {
-				previous.delete(data);
-				return previous;
-			});
-		}}
-		class="hover:bg-red-500 [&>svg]:hover:text-white px-4 z-20 bg-white  {isActive
-			? 'rounded-tl-md'
-			: 'rounded-l-md'}"
-	>
-		<Trash class="h-4 w-4 text-red-500 hover:text-white" />
-	</button>
+<section class="flex dark:bg-black">
+	<RemoveFaculty {data} {isActive} />
 	<button
 		on:click={() => {
 			isActive = !isActive;
 		}}
 		class="{isActive
 			? 'rounded-tr-md'
-			: 'rounded-r-md'} w-full bg-white pr-2 flex relative justify-between items-center"
+			: 'rounded-r-md'} w-full bg-white pr-2 flex relative justify-between items-center dark:bg-black"
 	>
 		<blockquote class="text-left p-2">
-			<span class="block text-sm md:text-base line-clamp-2 text-ellipsis">{data.syllabus}</span>
+			<span class="block text-sm md:text-base text-ellipsis">{data.syllabus}</span>
 			<span class="block text-xs md:text-sm font-thin text-slate-400">{data.faculty}</span>
 			<div class="flex items-center gap-2">
 				{#if scoreError != 'NONE'}
@@ -115,7 +103,7 @@
 			</div>
 		</blockquote>
 
-		<Ghost>
+		<Ghost class="dark:text-slate-100">
 			{#if isActive}
 				<ChevronUp class="w-6 h-6" />
 			{:else}
@@ -124,16 +112,4 @@
 		</Ghost>
 	</button>
 </section>
-
-<div class="{isActive ? 'block' : 'hidden'} relative -top-2 w-full bg-white pb-4 rounded-b-md">
-	<section class="border-y-1 mx-2 py-2">
-		<p class="text-center">ความฉลาดรู้</p>
-		<FacultyNetsatTable weight={data.weight} minimum={data.minimum_score} />
-	</section>
-	{#if data.specific_capability}
-		<section class="border-y-1 mx-2 py-2">
-			<p class="text-center">สมรรถนะเฉพาะด้าน</p>
-			<FacultySpecificCapablityTable weight={data.specific_capability} />
-		</section>
-	{/if}
-</div>
+<FacultyDetail {isActive} {data} />
