@@ -17,7 +17,7 @@
 
 	<div
 		class={twMerge(
-			'fixed left-1/2 top-10 -translate-x-1/2 bg-white dark:bg-black dark:border-gray-600 border z-50 rounded-md shadow-md dark:shadow-zinc-800 p-2 md:p-6',
+			'fixed left-1/2 top-10 w-[90%] md:w-auto -translate-x-1/2 bg-white border z-50 rounded-md shadow-md p-2 md:p-6 dark:shadow-gray-800 dark:bg-black dark:border-gray-900',
 			className
 		)}
 	>

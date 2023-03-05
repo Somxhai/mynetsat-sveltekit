@@ -13,14 +13,14 @@
 				calculate.set(!$calculate);
 			}}
 			type="submit"
-			class="absolute bottom-20 bg-black dark:bg-white hover:bg-slate-800 dark:hover:bg-gray-300 rounded-full p-4"
+			class="absolute bottom-20 bg-black hover:bg-slate-800 rounded-full p-4 dark:bg-white dark:hover:bg-gray-300"
 		>
 			<Calculator class="w-6 h-6 text-white dark:text-black" />
 		</Subtle>
 
 		<Subtle
 			onClick={() => dialogue.set('FACULTIES')}
-			class="absolute bottom-2 p-4 rounded-full bg-blue-500 hover:bg-blue-600 dark:hover:bg-blue-400 text-white"
+			class="absolute text-white bottom-2 p-4 rounded-full bg-blue-500 hover:bg-blue-600 dark:hover:bg-blue-400"
 		>
 			<MagnifyGlass class="w-6 h-6" />
 		</Subtle>

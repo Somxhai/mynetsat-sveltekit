@@ -7,7 +7,7 @@
 <section class="py-6">
 	<h1 class="text-center text-2xl">ผลคะแนน</h1>
 
-	<div class="relative h-[32rem] bg-slate-100 dark:bg-zinc-900 mx-4 my-2 rounded-md">
+	<div class="relative h-[32rem] bg-slate-100 mx-4 my-2 rounded-md dark:bg-zinc-900">
 		{#if $selectFaculty.size > 0}
 			<div class="p-2 space-y-2 max-h-[32rem] overflow-y-auto">
 				{#each Array.from($selectFaculty) as data}

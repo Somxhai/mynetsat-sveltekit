@@ -4,7 +4,7 @@
 	import Trash from '../icons/Trash.svelte';
 
 	export let data: NetsatType;
-    export let isActive = false;
+	export let isActive = false;
 </script>
 
 <button

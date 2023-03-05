@@ -19,7 +19,9 @@
 </script>
 
 {#if searchResult.length > 0}
-	<section class="[&>*]:border-b-2 dark:[&>*]:border-black first:border-black   max-h-[30rem] overflow-y-auto">
+	<section
+		class="[&>*]:border-b-2 first:border-black max-h-[30rem] overflow-y-auto dark:[&>*]:border-black"
+	>
 		{#each searchResult as result}
 			<svelte:component this={result.component} data={result.value} />
 		{/each}

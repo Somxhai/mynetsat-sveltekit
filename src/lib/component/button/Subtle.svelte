@@ -9,7 +9,7 @@
 <button
 	{type}
 	on:click={onClick}
-	class={twMerge('hover:bg-slate-100 dark:hover:bg-zinc-900 rounded-md p-2', className)}
+	class={twMerge('hover:bg-slate-100 rounded-md p-2 dark:hover:bg-zinc-900', className)}
 >
 	<slot />
 </button>

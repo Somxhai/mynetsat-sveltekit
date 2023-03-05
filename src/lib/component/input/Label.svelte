@@ -5,6 +5,6 @@
 
 <label
 	for={htmlFor}
-	class="text-sm dark:text-gray-300 font-base leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 "
+	class="text-sm font-base leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 dark:text-gray-300"
 	>{text}</label
 >

@@ -92,14 +92,14 @@
 			? 'rounded-tr-md'
 			: 'rounded-r-md'} w-full bg-white pr-2 flex relative justify-between items-center dark:bg-black"
 	>
-		<blockquote class="text-left p-2">
-			<span class="block text-sm md:text-base text-ellipsis">{data.syllabus}</span>
+		<blockquote class="text-left p-2 text-sm md:text-base">
+			<span class="block text-ellipsis">{data.syllabus}</span>
 			<span class="block text-xs md:text-sm font-thin text-slate-400">{data.faculty}</span>
 			<div class="flex items-center gap-2">
 				{#if scoreError != 'NONE'}
 					<svelte:component this={icon.component} />
 				{/if}
-				<span class="block text-sm md:text-base ">{calculatedScore}</span>
+				<span class="block">{calculatedScore}</span>
 			</div>
 		</blockquote>
 
