@@ -10,7 +10,7 @@
 	<DialogueHeader>สนับสนุน</DialogueHeader>
 	<DialogueContent>
 		<DialogueDescription>ช่วยให้เว็บไซต์นี้ได้รับการสนับสนุนได้นานยิ่งขึ้น!</DialogueDescription>
-		<div class="md:h-[32rem]">
+		<div class="md:h-[32rem] py-2">
 			<img class="h-full object-cover" src="/payment_qrcode.jpeg" alt="kbank qrcode" />
 		</div>
 	</DialogueContent>
