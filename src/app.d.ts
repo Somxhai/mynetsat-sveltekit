@@ -4,7 +4,7 @@ declare global {
 	namespace App {
 		// interface Error {}
 		interface Locals {
-			theme: import('$lib/types').Theme
+			theme: import('$lib/types').Theme;
 		}
 		// interface PageData {}
 		// interface Platform {}
