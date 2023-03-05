@@ -4,7 +4,7 @@
 	import Xmark from '../icons/Xmark.svelte';
 </script>
 
-<div class="p-2">
+<div class="pt-4">
 	<Ghost
 		onClick={() => dialogue.set('NONE')}
 		class="rounded-lg absolute top-2 right-2 p-2 text-slate-700 hover:text-slate-900 dark:text-slate-100"
