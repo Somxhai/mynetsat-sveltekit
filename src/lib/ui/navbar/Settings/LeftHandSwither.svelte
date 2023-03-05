@@ -15,7 +15,6 @@
 >
 	<Ghost class="flex items-center gap-1 w-full dark:text-slate-100">
 		<Hand class="w-4 h-4" />
-
 		<span
 			>{#if $settings.leftHand}
 				ถนัดขวา

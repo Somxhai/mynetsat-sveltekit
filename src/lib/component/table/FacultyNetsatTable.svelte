@@ -5,7 +5,7 @@
 	export let weight: Weight;
 </script>
 
-<table class="table-fixed w-full md:w-1/3  table mx-auto">
+<table class="table-fixed w-full md:w-1/3 table mx-auto">
 	<thead class="text-sm md:text-base">
 		<th>วิชา</th>
 		<th>%</th>

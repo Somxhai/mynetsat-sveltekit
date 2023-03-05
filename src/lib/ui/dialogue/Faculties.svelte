@@ -10,7 +10,6 @@
 
 	let result = '';
 	$: SEARCHING = result.length > 0;
-	
 </script>
 
 <Dialogue open={$dialogue == 'FACULTIES'} class="min-w-[80%] md:min-w-[50%]">
