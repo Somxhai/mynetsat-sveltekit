@@ -10,6 +10,7 @@
 </script>
 
 <svelte:head>
+	<link rel="preload" as="image" href="/payment_qrcode.jpeg" />
 	<title>เว็บไซต์สำหรับคำนวณคะแนน Netsat | MyNetsat</title>
 </svelte:head>
 
