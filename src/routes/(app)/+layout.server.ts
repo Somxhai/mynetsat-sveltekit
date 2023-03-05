@@ -1,5 +1,5 @@
 import { dev } from '$app/environment';
-import type { NetsatAPI, Settings, Theme } from '$lib/types';
+import type { NetsatAPI, Settings } from '$lib/types';
 import type { LayoutServerLoad } from './$types';
 
 export const load: LayoutServerLoad = async ({ fetch, cookies, locals }) => {

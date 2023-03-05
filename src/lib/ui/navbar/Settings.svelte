@@ -6,7 +6,6 @@
 	import DropdownSeparator from '$lib/component/dropdown/DropdownSeparator.svelte';
 	import DropdownTitle from '$lib/component/dropdown/DropdownTitle.svelte';
 	import DropdownTrigger from '$lib/component/dropdown/DropdownTrigger.svelte';
-	import DropdownItem from '$lib/component/dropdown/DropdownItem.svelte';
 	import Cog from '$lib/component/icons/Cog.svelte';
 	import ThemeSwitcher from './Settings/ThemeSwitcher.svelte';
 	import LeftHandSwither from './Settings/LeftHandSwither.svelte';

@@ -1,4 +1,3 @@
-import { scores } from '$lib/stores';
 import type {
 	NetsatType,
 	ScoreReport,
