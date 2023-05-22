@@ -4,6 +4,7 @@ export type ScoreError = 'NONE' | 'INCOMPLETE' | 'MINIMUM' | 'MINIMUM_SUM';
 
 export interface Settings {
 	leftHand: boolean;
+	
 }
 export type Theme = 'dark' | 'light';
 export interface NetsatAPI {

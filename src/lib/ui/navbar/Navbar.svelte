@@ -4,7 +4,7 @@
 </script>
 
 <nav
-	class="fixed w-full top-0 z-40 bg-white flex border-b-1 border-slate-300 px-6 py-4 items-center justify-between dark:bg-black dark:border-gray-600"
+	class="fixed w-full top-0 z-40 bg-white flex border-b-1 border-slate-300 px-6 py-4 items-center justify-between dark:bg-[#121212] dark:border-gray-600"
 >
 	<section class="flex items-center gap-4">
 		<a

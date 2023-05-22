@@ -21,6 +21,6 @@
 		id={name}
 		type="text"
 		{placeholder}
-		class="py-2 px-3 outline-none w-full dark:bg-black dark:placeholder:text-gray-400"
+		class="py-2 px-3 outline-none w-full dark:bg-[#121212] dark:placeholder:text-gray-400"
 	/>
 </div>

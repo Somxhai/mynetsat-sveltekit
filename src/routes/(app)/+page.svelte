@@ -7,6 +7,9 @@
 	import { getScore } from '$lib/utils/score';
 	import SpecificCapablityForm from '$lib/ui/form/SpecificCapablityForm.svelte';
 	import FloatingMenu from '$lib/ui/FloatingMenu.svelte';
+	import Dialogue from '$lib/component/dialogue/Dialogue.svelte';
+	import DialogueHeader from '$lib/component/dialogue/DialogueHeader.svelte';
+	import DialogueContent from '$lib/component/dialogue/DialogueContent.svelte';
 </script>
 
 <svelte:head>

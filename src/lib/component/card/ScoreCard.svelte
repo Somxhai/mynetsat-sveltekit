@@ -82,7 +82,7 @@
 	}
 </script>
 
-<section class="flex dark:bg-black">
+<section class="flex">
 	<RemoveFaculty {data} {isActive} />
 	<button
 		on:click={() => {
@@ -90,7 +90,7 @@
 		}}
 		class="{isActive
 			? 'rounded-tr-md'
-			: 'rounded-r-md'} w-full bg-white pr-2 flex relative justify-between items-center dark:bg-black"
+			: 'rounded-r-md'} w-full bg-white pr-2 flex relative justify-between items-center dark:bg-[#121212]"
 	>
 		<blockquote class="text-left p-2 text-sm md:text-base">
 			<span class="block text-ellipsis">{data.syllabus}</span>

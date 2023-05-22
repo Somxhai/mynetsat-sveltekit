@@ -22,7 +22,6 @@
 		<DropdownSeparator />
 		<DropdownGroup>
 			<LeftHandSwither />
-
 			<ThemeSwitcher />
 		</DropdownGroup>
 	</DropdownContent>

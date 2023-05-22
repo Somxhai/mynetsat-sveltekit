@@ -14,7 +14,7 @@
 			return previous;
 		});
 	}}
-	class="hover:bg-red-500 [&>svg]:hover:text-white px-4 z-20 bg-white dark:bg-black dark:hover:bg-red-500 {isActive
+	class="hover:bg-red-500 [&>svg]:hover:text-white px-4 z-20 bg-white dark:bg-[#121212] dark:hover:bg-red-500 {isActive
 		? 'rounded-tl-md'
 		: 'rounded-l-md'}"
 >

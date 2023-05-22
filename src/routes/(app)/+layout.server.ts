@@ -1,5 +1,5 @@
 import { dev } from '$app/environment';
-import type { NetsatAPI, Settings } from '$lib/types';
+import type { NetsatAPI, Settings, Theme } from '$lib/types';
 import type { LayoutServerLoad } from './$types';
 
 export const load: LayoutServerLoad = async ({ fetch, cookies, locals }) => {
@@ -16,8 +16,8 @@ export const load: LayoutServerLoad = async ({ fetch, cookies, locals }) => {
 			secure: !dev
 		});
 	}
-
-	const theme = locals.theme;
+	
+	const theme: Theme = locals.theme;
 	const settings = JSON.parse(cookies.get('settings') as string) as Settings;
 	return {
 		settings,

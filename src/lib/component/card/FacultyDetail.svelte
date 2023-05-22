@@ -10,7 +10,7 @@
 <div
 	class="{isActive
 		? 'block'
-		: 'hidden'} relative -top-2 w-full bg-white pb-4 rounded-b-md dark:bg-black"
+		: 'hidden'} relative -top-2 w-full bg-white pb-4 rounded-b-md dark:bg-[#121212]"
 >
 	<section class="border-y-1 mx-2 py-2 dark:border-gray-600">
 		<p class="text-center">ความฉลาดรู้</p>

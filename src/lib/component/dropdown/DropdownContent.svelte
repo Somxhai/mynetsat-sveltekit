@@ -13,7 +13,7 @@
 	/>
 	<div
 		class={twMerge(
-			'absolute z-50 bg-white shadow-md rounded-md  border-1 border-slate-100 dark:shadow-zinc-800 dark:bg-black dark:border-zinc-800',
+			'absolute z-50 bg-white shadow-md rounded-md  border-1 border-slate-100 dark:shadow-zinc-800 dark:bg-[#121212] dark:border-zinc-800',
 			className
 		)}
 	>
